@@ -1,11 +1,5 @@
 #!/usr/bin/python3
 
-def print_list_integers(my_list=[]):
-    """
-    prints integer in a list
-    Args:
-        my_list - list of integers default []
-        """
-
+def print_list_integer(my_list=[]):
     for i in my_list:
         return("{:d}".format(i))
